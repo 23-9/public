@@ -1,0 +1,163 @@
+object Form1: TForm1
+  Left = 750
+  Height = 546
+  Top = 215
+  Width = 997
+  Caption = 'FreePetriNetwork'
+  ClientHeight = 546
+  ClientWidth = 997
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Fp: TStringGrid
+    Left = 48
+    Height = 256
+    Top = 120
+    Width = 256
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    TabOrder = 0
+  end
+  object Ft: TStringGrid
+    Left = 320
+    Height = 256
+    Top = 120
+    Width = 256
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    TabOrder = 1
+  end
+  object M0: TStringGrid
+    Left = 624
+    Height = 24
+    Top = 120
+    Width = 24
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    TabOrder = 2
+  end
+  object EditP: TEdit
+    Left = 32
+    Height = 23
+    Top = 26
+    Width = 24
+    TabOrder = 3
+  end
+  object EditT: TEdit
+    Left = 80
+    Height = 23
+    Top = 26
+    Width = 24
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 8
+    Width = 7
+    Caption = 'P'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 15
+    Top = 8
+    Width = 7
+    Caption = 'T'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Height = 15
+    Top = 28
+    Width = 8
+    Caption = '×'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 176
+    Height = 25
+    Top = 24
+    Width = 128
+    Caption = 'Составить матрицы'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    Left = 168
+    Height = 15
+    Top = 76
+    Width = 13
+    Caption = 'Fp'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 440
+    Height = 15
+    Top = 76
+    Width = 10
+    Caption = 'Ft'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 628
+    Height = 15
+    Top = 76
+    Width = 17
+    Caption = 'M0'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 72
+    Height = 25
+    Top = 408
+    Width = 152
+    Caption = 'Составить матрицу сети'
+    OnClick = Button2Click
+    TabOrder = 6
+  end
+  object Label7: TLabel
+    Left = 152
+    Height = 15
+    Top = 102
+    Width = 54
+    Caption = '-----t-----'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 29
+    Height = 15
+    Top = 224
+    Width = 7
+    Caption = 'P'
+    ParentColor = False
+  end
+  object deb: TStringGrid
+    Left = 680
+    Height = 256
+    Top = 120
+    Width = 256
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    TabOrder = 7
+  end
+  object EditL: TEdit
+    Left = 128
+    Height = 23
+    Top = 26
+    Width = 24
+    TabOrder = 8
+  end
+  object Label9: TLabel
+    Left = 128
+    Height = 15
+    Top = 8
+    Width = 27
+    Caption = 'Level'
+    ParentColor = False
+  end
+  object ButtonEx: TButton
+    Left = 344
+    Height = 25
+    Top = 24
+    Width = 120
+    Caption = 'Задать пример'
+    OnClick = ButtonExClick
+    TabOrder = 9
+  end
+end
